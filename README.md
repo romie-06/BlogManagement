@@ -2,7 +2,7 @@
 
 ## Feature 1
 
-In feature 1, if the user enters wrong api Key then in the error code it will return HTTP errot 401
+In feature 1, api key is the part of request header and if not provided it will give HTTP 400 error. And  if the key will be wrong then it will give HTTP 401.
 
 ## Feature 2
 
